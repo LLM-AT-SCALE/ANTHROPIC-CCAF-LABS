@@ -1,5 +1,7 @@
 # LAB 1 — Meeting Action Agent
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LLM-AI-INDIA/ANTHROPIC-CCAF-LABS/blob/main/LAB%201/meeting_action_agent_colab.ipynb)
+
 A multi-agent system built on the **Claude Agent SDK** that turns a raw meeting
 transcript into a structured Markdown report with three sections:
 
