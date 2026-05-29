@@ -116,9 +116,3 @@ You can also override Section 6 at runtime: leave the file as-is and tell Claude
 | "Choose Files" button never appears | Re-run the install cell (it brings in `google.colab.files`), then re-run the input cell. |
 | Subagents fire sequentially instead of in parallel | Output is still correct, just slower. The orchestrator should emit all N `Task` calls in one message — if it's splitting them, re-run the run cell. |
 | `output/<stem>/report.md` missing after a run | Scroll up in the Run cell output — the orchestrator's last message usually says why. |
-
----
-
-## Repo
-
-<https://github.com/LLM-AT-SCALE/ANTHROPIC-CCAF-LABS/tree/main/LAB%201>
